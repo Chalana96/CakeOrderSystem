@@ -43,6 +43,7 @@
         android:layout_marginEnd="31dp"
         android:layout_marginBottom="52dp"
         android:background="@color/common_google_signin_btn_text_dark_disabled"
+        android:backgroundTint="?android:attr/homeAsUpIndicator"
         android:text="Make Paymet"
         android:textColor="@color/common_google_signin_btn_text_dark_default"
         app:layout_constraintBottom_toBottomOf="parent"

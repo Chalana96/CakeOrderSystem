@@ -84,14 +84,6 @@
             android:inputType="textPersonName"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/tvDate"
-            android:layout_width="match_parent"
-            android:layout_height="35dp"
-            android:text="Select Delivery Date :-"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
         <EditText
             android:id="@+id/etMsg"
             android:layout_width="match_parent"
@@ -109,6 +101,14 @@
             android:ems="10"
             android:hint="Delivery Time"
             android:inputType="time"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Select Delivery Date :-"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
         <CalendarView
