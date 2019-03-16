@@ -46,7 +46,7 @@ public class DisplayDeliveryDetails extends AppCompatActivity {
         makepayment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(DisplayDeliveryDetails.this,FinalPage.class);
+                Intent intent =new Intent(getApplicationContext(),FinalPage.class);
 
 
                 startActivity(intent);
@@ -54,7 +54,7 @@ public class DisplayDeliveryDetails extends AppCompatActivity {
         cancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2 = new Intent(DisplayDeliveryDetails.this,DeliveryForm.class);
+                Intent intent2 = new Intent(getApplicationContext(),DeliveryForm.class);
 
                 startActivity(intent2);
             }
