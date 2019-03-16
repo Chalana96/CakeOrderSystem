@@ -21,7 +21,11 @@
         <activity android:name=".DisplayDeliveryDetails" />
         <activity android:name=".FinalPage" />
         <activity android:name=".DisplayDetailsActivity" />
-        <activity android:name=".Rating"></activity>
+        <activity android:name=".Rating" />
+        <activity
+            android:name=".Edit"
+            android:label="@string/title_activity_edit"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
