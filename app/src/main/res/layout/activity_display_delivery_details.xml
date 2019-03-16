@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kk"
+    tools:context=".DisplayDeliveryDetails"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/btn_Details_cancel"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="100dp"
+        android:background="@color/common_google_signin_btn_text_dark_disabled"
+        android:text="Cancel  Order"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_edit"
+        app:layout_constraintEnd_toStartOf="@+id/btn_edit"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="57dp"
+        android:background="@color/common_google_signin_btn_text_dark_disabled"
+        android:text="Edit"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        app:layout_constraintBottom_toTopOf="@+id/btn_MakePayment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_Details_cancel"
+        app:layout_constraintTop_toBottomOf="@+id/tvDisplay" />
+
+    <Button
+        android:id="@+id/btn_MakePayment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="52dp"
+        android:background="@color/common_google_signin_btn_text_dark_disabled"
+        android:text="Make Paymet"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_edit"
+        app:layout_constraintStart_toStartOf="@+id/btn_Details_cancel"
+        app:layout_constraintTop_toBottomOf="@+id/btn_edit" />
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="206dp"
+        android:layout_height="273dp"
+        android:layout_marginTop="99dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_edit"
+        app:layout_constraintStart_toStartOf="@+id/btn_Details_cancel"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

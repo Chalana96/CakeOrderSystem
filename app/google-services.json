@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "208156419747",
+    "firebase_url": "https://cakeshop-821e3.firebaseio.com",
+    "project_id": "cakeshop-821e3",
+    "storage_bucket": "cakeshop-821e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208156419747:android:4a18ea5f2e8a872e",
+        "android_client_info": {
+          "package_name": "com.example.checkout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208156419747-7iuq3i1u3iq1njf3t94qetvj0dafoh2u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.checkout",
+            "certificate_hash": "66fa7c1ca6babba80c744d2ac0d08fa78812a210"
+          }
+        },
+        {
+          "client_id": "208156419747-5nk3sso1q7c26gketh7kfafgn96nsnpp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQjAPHLiCUS_TSKHeVqUWOAO016PfJM_0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208156419747-5nk3sso1q7c26gketh7kfafgn96nsnpp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
