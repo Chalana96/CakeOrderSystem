@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    tools:layout_editor_absoluteY="81dp">
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="23dp"
+        android:autofillHints=""
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="27dp"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="213dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="161dp"
+        android:layout_marginBottom="162dp"
+        android:text="Login"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnCusSignIn"
+        android:layout_width="218dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="82dp"
+        android:text="Sign In"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:layout_marginBottom="91dp"
+        android:fontFamily="sans-serif"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barrier" />
+
+    <TextView
+        android:id="@+id/atmpts"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="37dp"
+        android:text="Remaning no of attempts  : "
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/btnCusSignIn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button" />
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left"
+        tools:layout_editor_absoluteX="384dp"
+        tools:ignore="MissingConstraints" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="580dp" />
+
+</android.support.constraint.ConstraintLayout>

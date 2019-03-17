@@ -11,17 +11,21 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".DeliveryForm"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".DisplayDeliveryDetails" />
+        <activity android:name=".FinalPage" />
+        <activity android:name=".Rating" />
+        <activity android:name=".Login" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DisplayDeliveryDetails" />
-        <activity android:name=".FinalPage" />
-        <activity android:name=".DisplayDetailsActivity" />
-        <activity android:name=".Rating"></activity>
+        <activity android:name=".customerLogin" />
+        <activity android:name=".shopLogin" />
+        <activity android:name=".AddShop" />
+        <activity android:name=".CusReg"></activity>
     </application>
 
 </manifest>

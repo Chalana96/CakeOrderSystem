@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/as"
+    tools:context=".DeliveryForm">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:text="Shop Register"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvShopID"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="Shop ID                 :"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etShopName"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:hint="Shop Name"
+            android:inputType="textPersonName"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etCity"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:hint="City"
+            android:inputType="textPersonName"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/mtShopAddress"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:hint="Address"
+            android:inputType="textMultiLine"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etShopContactNum"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:hint="Contact Number"
+            android:inputType="textPersonName"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/mtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPersonName"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etConPassword"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:inputType="textPersonName"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Select Delivery Date :-"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/mtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:hint="Description"
+            android:inputType="textMultiLine"
+            android:lineSpacingExtra="36sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="Submit"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
